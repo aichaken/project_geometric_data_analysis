@@ -1,0 +1,30 @@
+# Ignore Python virtual environments
+gcn_env/
+env/
+venv/
+*.egg-info/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore data/cache/logs
+*.mat
+*.npz
+*.npy
+*.pkl
+*.h5
+logs/
+cache/
+
+# Ignore OS files
+.DS_Store
+
+# Ignore editor settings
+.vscode/
+.idea/
+
+# Ignore large generated results
+results/
